@@ -28,7 +28,7 @@ end {
     $ElfArray.Sort()
     $ElfArray.Reverse()
 
-    $ElfArray[0..2] | %{ $Top3 += $_ }
+    $ElfArray[0..2] | ForEach-Object{ $Top3 += $_ }
     
     Write-Host $ElfArray[0..2]
     return $Top3
