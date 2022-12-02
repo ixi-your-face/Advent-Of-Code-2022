@@ -1,0 +1,33 @@
+
+rock - beats scissors
+paper - beats rock
+scissors - beats paper
+
+
+0
+1
+2
+
+1 + 1 = draw (2)
+1 + 0 = loss (1)
+1 + 2 = win (3)
+
+
+1 - rock
+2 - paper
+3 - scissors
+
+
+loss - 0
+draw - 3
+win - 6
+
+A - Rock
+B - Paper
+C - Scissors
+
+X - Rock
+Y - Paper 
+Z - Scissors
+
+(1 + 1) % len 
