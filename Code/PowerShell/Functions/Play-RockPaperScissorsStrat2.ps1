@@ -36,7 +36,6 @@ begin {
     $Strategy = (Get-Content $InputGame)
 
     $Plays = ("A", "B", "C")
-    $Ending = ("X", "Y", "Z")
 
     $TotalScore = 0
 }
